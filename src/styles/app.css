@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+.header .logo {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+@font-face {
+    font-family: 'Surt-MediumExp';
+    src: url('./fonts/Surt-MediumExp.eot');
+    src: url('./fonts/Surt-MediumExp.eot') format('embedded-opentype'),
+         url('./fonts/Surt-MediumExp.svg') format('svg'),
+         url('./fonts/Surt-MediumExp.ttf') format('truetype'),
+         url('./fonts/Surt-MediumExp.woff') format('woff'),
+         url('./fonts/Surt-MediumExp.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu-drawer {
+    transition: transform ease-in-out .5s;
+}

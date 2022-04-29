@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Banner from './homepage/banner'
+import Banner from './banner'
 
 export default function Homepage() {
     useEffect(() => {
