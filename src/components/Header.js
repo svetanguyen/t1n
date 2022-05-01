@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { HOMEPAGE, ABOUT, WORK, CONTACT } from '../constants/routes'
 import Drawer from './Drawer'
 
 export default function Header() {
+    const [transparent, setTransparent] = useState(true)
+    const UpdateHeader = () => {
+        const location = useLocation()
+        useEffect(() => {
+            console.log('update')
+          if (location.pathname.includes('work') || location.pathname.includes('not-found')) {
+            setTransparent(false)
+          } else {
+              setTransparent(true)
+          }
+        }, [location])
+      }
     const [show, setShow] = useState(false)
     const showDrawer = (e) => {
         e.preventDefault();
         setShow(true)
     }
+    UpdateHeader()
 
     return (
-        <div className="header fixed top-0 left-0 right-0 flex px-4 lg:px-11 lg:mx-6 py-10 justify-between">
+        <div className={`header z-10 flex px-4 lg:px-11 lg:px-6 py-10 justify-between${transparent ? ' absolute top-0 left-0 right-0' : ' bg-gradient'}`}>
             <Link className="logo text-white text-3xl" to={HOMEPAGE} aria-label="page logo">
                 T1n.
             </Link>

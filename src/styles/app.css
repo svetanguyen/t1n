@@ -19,6 +19,54 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Surt-BlackExtended';
+    src: url('./fonts/Surt-BlackExtended.eot');
+    src: url('./fonts/Surt-BlackExtended.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Surt-BlackExtended.svg#Surt-BlackExtended') format('svg'),
+         url('./fonts/Surt-BlackExtended.ttf') format('truetype'),
+         url('./fonts/Surt-BlackExtended.woff') format('woff'),
+         url('./fonts/Surt-BlackExtended.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Surt-LightExp';
+    src: url('./fonts/Surt-LightExp..eot');
+    src: url('./fonts/Surt-LightExp..eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Surt-LightExp..svg#Surt-LightExp.') format('svg'),
+         url('./fonts/Surt-LightExp..ttf') format('truetype'),
+         url('./fonts/Surt-LightExp..woff') format('woff'),
+         url('./fonts/Surt-LightExp..woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Surt-Bold';
+    src: url('./fonts/Surt-Bold.eot');
+    src: url('./fonts/Surt-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Surt-Bold.svg#Surt-Bold') format('svg'),
+         url('./fonts/Surt-Bold.ttf') format('truetype'),
+         url('./fonts/Surt-Bold.woff') format('woff'),
+         url('./fonts/Surt-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}  
+  
+  
+  
+
 .menu-drawer {
     transition: transform ease-in-out .5s;
+}
+
+.duration-7000 {
+    -webkit-animation-duration: 7000ms;
+}
+
+
+@media screen and (max-width:1023px) {
+    
 }
