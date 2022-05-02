@@ -24,7 +24,7 @@ export default function Header() {
     UpdateHeader()
 
     return (
-        <div className={`header z-10 flex px-4 lg:px-11 lg:px-6 py-10 justify-between${transparent ? ' absolute top-0 left-0 right-0' : ' bg-gradient'}`}>
+        <div className={`header z-10 flex px-4 lg:px-11 py-10 justify-between${transparent ? ' absolute top-0 left-0 right-0' : ' bg-gradient'}`}>
             <Link className="logo text-white text-3xl" to={HOMEPAGE} aria-label="page logo">
                 T1n.
             </Link>

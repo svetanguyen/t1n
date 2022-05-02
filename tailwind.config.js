@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontSize: {
       'base': '1rem',
+      'xxs': '0.625rem',
       'sm': '0.875rem',
       'xl': '1.25rem',
       '3xl': '1.875rem',
@@ -16,12 +17,15 @@ module.exports = {
       '6xl': '3.75rem',
       '7xl-sm': '92px',
       '6xl-sm': '54px',
+      '21': '21px',
       '29': '29px',
+      '32': '32px',
       '37': '37px'
     },
     extend: {
       colors: {
         'yellow': '#FFEC6B',
+        'white-100': '#FEFEFE',
         'gray': '#656565',
         'gray-100': '#ECEEF1',
         'dark': '#0C1315',
