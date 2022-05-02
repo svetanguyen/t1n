@@ -18,6 +18,7 @@ module.exports = {
       '7xl-sm': '92px',
       '6xl-sm': '54px',
       '21': '21px',
+      '26': '26px',
       '29': '29px',
       '32': '32px',
       '37': '37px'
@@ -45,6 +46,7 @@ module.exports = {
         'main-bold': 'Surt-Bold'
       },
       spacing: {
+        '22': '184px',
         '128': '37rem',
         'ratio-80': '80%'
       }

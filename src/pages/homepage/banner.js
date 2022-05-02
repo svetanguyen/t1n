@@ -9,8 +9,8 @@ export default function Banner() {
                   className="h-full object-cover min-h-screen w-full"
                 />
             </div>
-            <div className="banner__content pt-32 pb-20 lg:h-screen flex flex-col justify-center h-full min-h-screen relative text-center">
-                <h1 className="text-3xl pb-20 sm:text-6xl lg:text-7xl-sm font-extended text-white">
+            <div className="banner__content pt-32 lg:pt-22 pb-20 flex flex-col justify-center h-full min-h-screen relative text-center">
+                <h1 className="text-3xl pb-14 lg:pb-16 sm:text-6xl lg:text-7xl-sm leading-tight font-extended text-white">
                     <span className="relative">
                         Hi, my name is Tin,
                         <svg className="absolute hidden lg:block right-0 top-0 translate-x-1/2 -translate-y-1/2" width="99" height="93" viewBox="0 0 99 93" fill="none" xmlns="http://www.w3.org/2000/svg">

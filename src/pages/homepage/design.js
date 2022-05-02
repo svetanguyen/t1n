@@ -23,7 +23,7 @@ export default function Design() {
                                 alt={item.description} 
                                 className="mx-auto mb-4"
                             />
-                            <p className="text-21 lg:text-4xl font-lightexp">{item.description}</p>
+                            <p className="text-21 lg:text-26 font-lightexp">{item.description}</p>
                         </div>
                         {
                             item.grid === 'left' && 

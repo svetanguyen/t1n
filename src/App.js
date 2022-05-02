@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 const Homepage = lazy(() => import('./pages/homepage/index'));
-const About = lazy(() => import('./pages/about'));
+const About = lazy(() => import('./pages/about/index'));
 const Contact = lazy(() => import('./pages/contact'));
 const Work = lazy(() => import('./pages/work/index'));
 const CastToTv = lazy(() => import('./pages/cast-to-tv'))
