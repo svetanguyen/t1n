@@ -17,6 +17,7 @@ module.exports = {
       '6xl': '3.75rem',
       '7xl-sm': '92px',
       '6xl-sm': '54px',
+      '8xl': '6rem',
       '21': '21px',
       '26': '26px',
       '29': '29px',
