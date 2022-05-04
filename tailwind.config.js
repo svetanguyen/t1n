@@ -21,7 +21,9 @@ module.exports = {
       '26': '26px',
       '29': '29px',
       '32': '32px',
-      '37': '37px'
+      '37': '37px',
+      '56': '56px',
+      '100': '100px'
     },
     extend: {
       colors: {
@@ -30,11 +32,14 @@ module.exports = {
         'gray': '#656565',
         'gray-100': '#ECEEF1',
         'dark': '#0C1315',
-        'dark-100': '#0D1517'
+        'dark-100': '#0D1517',
+        'dark-200': '#121212'
       },
       backgroundImage: {
         'crossed': 'linear-gradient(to top left,rgba(0,0,0,0) 0%,rgba(0,0,0,0) calc(50% - 0.8px),#656565 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%),linear-gradient(to top right,rgba(0,0,0,0) 0%,rgba(0,0,0,0) calc(50% - 0.8px),#656565 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%);',
-        'gradient': 'url("../../public/images/banner.png")'
+        'gradient': 'url("../../public/images/banner.png")',
+        'gradient-top-50': 'linear-gradient(to top,#fff,#fff 50%, transparent 50%),url("../../public/images/banner.png")',
+        'gradient-top-60': 'linear-gradient(to top,#fff,#fff 60%, transparent 60%),url("../../public/images/banner.png")'
       },
       transitionDuration: {
         '7000': '7000ms',
@@ -47,6 +52,7 @@ module.exports = {
       },
       spacing: {
         '22': '184px',
+        '21': '154x',
         '128': '37rem',
         'ratio-80': '80%'
       }

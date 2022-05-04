@@ -12,7 +12,7 @@ const CastToTv = lazy(() => import('./pages/cast-to-tv'))
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gradient">
       <Router>
         <Header  />
         <Suspense fallback={<p>Loading..</p>}>
