@@ -1,11 +1,24 @@
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom';
 import { HOMEPAGE, ABOUT, WORK, CONTACT } from '../constants/routes'
 import {DRIBBLE, BEHANCE, LINKEDIN, FACEBOOK} from '../constants/links'
 
 
 export default function Footer() {
+    const [gradient, setGradient] = useState(true)
+    const UpdateFooter = () => {
+        const location = useLocation()
+        useEffect(() => {
+          if (location.pathname === '/' || location.pathname.includes('work')) {
+            setGradient(true)
+          } else {
+            setGradient(false)
+          }
+        }, [location])
+      }
+      UpdateFooter()
     return (
-        <div className="footer py-6 lg:py-16 px-4 lg:px-11 lg:flex bg-gradient">
+        <div className={`footer py-6 lg:py-16 px-4 lg:px-11 lg:flex${gradient ? ' bg-gradient' : ' bg-black'}`}>
             <div className="lg:w-4/12 lg:flex flex-col justify-between">
                 <h2 className="text-white text-32 font-extended">Tiin.</h2>
                 <p className="font-medium text-xl text-white hidden lg:block">Created by Bui Dys Tin © 2022</p>
