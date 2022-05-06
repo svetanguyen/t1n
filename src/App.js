@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { HOMEPAGE, ABOUT, WORK, CONTACT, CASTTOTV } from './constants/routes';
+import { HOMEPAGE, ABOUT, WORK, CONTACT, CASTTOTV, NETWORK } from './constants/routes';
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -9,6 +9,7 @@ const About = lazy(() => import('./pages/about/index'));
 const Contact = lazy(() => import('./pages/contact'));
 const Work = lazy(() => import('./pages/work/index'));
 const CastToTv = lazy(() => import('./pages/cast-to-tv'))
+const Network = lazy(() => import('./pages/works/network/index'))
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path={WORK} element={<Work />} />
             <Route path={CONTACT} element={<Contact />} />
             <Route path={CASTTOTV} element={<CastToTv />} />
+            <Route path={NETWORK} element={<Network />} />
           </Routes>
         </Suspense>
         <Footer />

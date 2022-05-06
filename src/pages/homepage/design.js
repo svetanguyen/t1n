@@ -3,7 +3,7 @@ import {process} from '../../constants/designProcess'
 export default function Design() {
     return (
         <div className="design px-4 lg:px-0 pb-20">
-            <h2 className="uppercase text-white text-xl lg:text-5xl text-center font-medium pt-20 pb-6">Design process</h2>
+            <h2 className="uppercase text-white text-xl lg:text-5xl text-center font-mediumexp pt-20 pb-6">Design process</h2>
             <ul className="border border-gray lg:border-x-0">
                 {
                     process.map((item, index) => 

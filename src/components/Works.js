@@ -5,7 +5,7 @@ import ComingSoon from './ComingSoon'
 export default function Works({comingSoon}) {
     return (
         <div className="bg-dark-100 works">
-            <h2 className="text-white font-medium uppercase text-center pb-6 lg:pb-14 text-xl lg:text-5xl">My craft</h2>
+            <h2 className="text-white font-mediumexp uppercase text-center pb-6 lg:pb-14 text-xl lg:text-5xl">My craft</h2>
             <ul className="works-items__wrapper">
                 {
                     works.map((work, index) => 

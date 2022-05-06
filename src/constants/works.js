@@ -1,4 +1,4 @@
-import { CASTTOTV } from '../constants/routes'
+import { CASTTOTV, NETWORK } from '../constants/routes'
 
 export const works = [
     {
@@ -10,6 +10,7 @@ export const works = [
     {
         'title': 'X network',
         'image': '/images/network.jpg',
-        'description': 'Test your internet speed and check network performance'
+        'description': 'Test your internet speed and check network performance',
+        'link': NETWORK
     }
 ]

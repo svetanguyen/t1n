@@ -16,7 +16,7 @@ export default function Drawer({ show, setShow }) {
         }
     }, [show])
     return (
-        <div className={`fixed top-0 h-screen right-0 overflow-scroll menu-drawer w-full sm:w-96 flex items-center bg-black${show ? '' : ' translate-x-full'}`}>
+        <div className={`fixed z-10 top-0 h-screen right-0 overflow-scroll menu-drawer w-full sm:w-96 flex items-center bg-black${show ? '' : ' translate-x-full'}`}>
             <div className="px-5 py-8 flex justify-end absolute top-0 left-0 w-full">
                 <svg onClick={() => setShow(false)} width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.6046 0.000822227L25.4331 2.82925L2.82843 25.4339L0 22.6055L22.6046 0.000822227Z" fill="#ECEEF1"/>

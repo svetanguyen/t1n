@@ -21,7 +21,7 @@ export default function Footer() {
         <div className={`footer py-6 lg:py-16 px-4 lg:px-11 lg:flex${gradient ? ' bg-gradient' : ' bg-black'}`}>
             <div className="lg:w-4/12 lg:flex flex-col justify-between">
                 <h2 className="text-white text-32 font-extended">Tiin.</h2>
-                <p className="font-medium text-xl text-white hidden lg:block">Created by Bui Dys Tin © 2022</p>
+                <p className="font-mediumexp text-xl text-white hidden lg:block">Created by Bui Dys Tin © 2022</p>
             </div>
             <div className="flex flex-wrap pt-10 pb-20 lg:pb-0 lg:pt-0 lg:justify-between lg:pr-20 lg:w-8/12">
                 <ul className="text-white pr-20 font-lightexp text-21 lg:text-4xl">
@@ -69,7 +69,7 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
-            <p className="font-medium text-center text-xxs text-white lg:hidden">Created by Bui Dys Tin © 2022</p>
+            <p className="font-mediumexp text-center text-xxs text-white lg:hidden">Created by Bui Dys Tin © 2022</p>
         </div>
     )
 }

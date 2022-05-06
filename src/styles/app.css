@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@400;500;600&display=swap');
 .header .logo {
     font-family: 'Dela Gothic One', cursive;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+font-family: 'Dela Gothic One', cursive;
 
 @font-face {
     font-family: 'Surt-MediumExp';
@@ -54,9 +58,18 @@
     font-weight: normal;
     font-style: normal;
 }  
-  
-  
-  
+
+@font-face {
+    font-family: 'a Atmospheric';
+    src: url('./fonts/aAtmospheric.eot');
+    src: url('./fonts/aAtmospheric.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/aAtmospheric.woff2') format('woff2'),
+        url('./fonts/aAtmospheric.woff') format('woff'),
+        url('./fonts/aAtmospheric.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 .menu-drawer {
     transition: transform ease-in-out .5s;
@@ -64,9 +77,4 @@
 
 .duration-7000 {
     -webkit-animation-duration: 7000ms;
-}
-
-
-@media screen and (max-width: 1023px) {
-    
 }

@@ -28,7 +28,7 @@ export default function Header() {
             <Link className="logo text-white text-3xl" to={HOMEPAGE} aria-label="page logo">
                 T1n.
             </Link>
-            <ul className="hidden font-medium text-4xl text-white lg:flex">
+            <ul className="hidden font-mediumexp text-4xl text-white lg:flex">
                 <li className="pr-11">
                     <Link to={HOMEPAGE}>
                         Home
