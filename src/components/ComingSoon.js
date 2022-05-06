@@ -1,6 +1,6 @@
 export default function ComingSoon({even}) {
     return (
-        <li className="coming-soon border-b lg:border-y border-gray works-item pb-16">
+        <li className="coming-soon border-b lg:border-y border-gray works-item mb-16">
                             <div className={`p-4 lg:p-0 lg:h-128 flex-col-reverse flex${even ? ' lg:flex-row-reverse' : ' lg:flex-row'}`}>
                                 <div className="works-item__content-wrapper lg:w-1/2 h-full lg:p-10 flex lg:justify-center items-center">
                                     <div className="w-4/6 font-lightexp">

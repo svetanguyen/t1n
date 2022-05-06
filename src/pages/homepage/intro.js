@@ -8,7 +8,7 @@ export default function Intro() {
                     className="ml-auto"
                  />
             </div>
-            <p className="intro__content font-lightexp absolute top-1/2 left-0 w-4/6 pl-4 lg:pl-16 -translate-y-1/2 text-lg lg:text-6xl-sm text-white">
+            <p className="intro__content font-lightexp absolute top-1/2 leading-normal left-0 w-4/6 pl-4 lg:pl-16 -translate-y-1/2 text-lg lg:text-6xl-sm text-white">
                 Currently based in Vietnam, work with the team helping to improve digital products.
             </p>
         </div>

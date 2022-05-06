@@ -7,7 +7,7 @@ export default function Design() {
             <ul className="border border-gray lg:border-x-0">
                 {
                     process.map((item, index) => 
-                    <li className={`${index + 1 !== process.length ? 'border-b border-gray' : ''} lg:border-0 lg:grid lg:grid-cols-7`}>
+                    <li key={index} className={`${index + 1 !== process.length ? 'border-b border-gray' : ''} lg:border-0 lg:grid lg:grid-cols-7`}>
                         <div className="hidden col-span-1 col-start-1 lg:block border-r border-gray row-span-full"></div>
                         {
                             (item.grid === 'right' || item.grid === 'center') && 

@@ -2,7 +2,7 @@ export default function Description() {
     return (
         <div className="px-4 lg:px-11">
             <div className="border-t border-b border-dark-200 font-lightexp text-lg	lg:text-4xl pt-10 pb-16 lg:py-21 lg:flex">
-                <div className="lg:w-4/6">
+                <div className="lg:w-4/6 leading-normal">
                     <p className="mb-4">
                         My skills and interests include UI/UX, graphic design, and high-fidelity prototyping.
                     </p>
