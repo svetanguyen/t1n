@@ -19,15 +19,8 @@ module.exports = {
         'blue': '#54FFD6'
       },
       fontSize: {
-        'base': '1rem',
         'xxs': '0.625rem',
-        'sm': '0.875rem',
-        'xl': '1.25rem',
-        '3xl': '1.875rem',
-        '4xl': '2.25rem',
         '4xl-lg': '2.5rem',
-        '5xl': '3rem',
-        '6xl': '3.75rem',
         '7xl-sm': '92px',
         '6xl-sm': '54px',
         '8xl': '6rem',

@@ -14,7 +14,7 @@ export default function Work() {
       ]
 
     return (
-        <div className=" bg-dark-100 lg:pt-20 pt-10">
+        <div className=" bg-dark-100">
             <Works/>
             <div className="pt-6 lg:pt-14">
                 <LinksList links={links} color='white' center={true} />
