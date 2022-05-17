@@ -10,7 +10,7 @@ export default function Description() {
                     />
                 </div>
                 <div className="max-w-xs mx-auto lg:max-w-[982px]">
-                    <p className="text-white-200 text-base lg:text-4xl-lg text-center font-montserrat">
+                    <p className="text-white-200 text-base lg:leading-snug lg:text-4xl-lg text-center font-montserrat">
                         X NETWORK has a simple design, is easy to use and has a modern nature of the digital age.
                     </p>
                 </div>

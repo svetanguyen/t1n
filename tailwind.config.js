@@ -16,7 +16,12 @@ module.exports = {
         'dark': '#0C1315',
         'dark-100': '#0D1517',
         'dark-200': '#121212',
-        'blue': '#54FFD6'
+        'black-100': 'rgba(18, 18, 18, 1)',
+        'blue': '#54FFD6',
+        'black-opacity': 'rgba(0, 0, 0, .4)'
+      },
+      boxShadow: {
+        '1': '0px 7.32422px 16.65px rgba(0, 0, 0, 0.1)'
       },
       fontSize: {
         'xxs': '0.625rem',

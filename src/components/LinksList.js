@@ -1,14 +1,14 @@
-export default function LinksList({links, color, center}) {
+export default function LinksList({links, color, center, customWidthDesk, customClass}) {
     return (
-        <ul className={`flex text-base justify-end lg:justify-start lg:text-29 font-lightexp lg:font-main-bold flex-wrap ${color ? `text-${color}`: 'text-dark-200'}`}>
+        <ul className={`flex text-base justify-end lg:justify-start lg:text-29 font-lightexp lg:font-main-bold flex-wrap ${customClass} ${color ? `text-${color}`: 'text-dark-200'}`}>
             {links.map((link, index) => 
-                <li key={index} className="pb-4 lg:pb-14 w-1/2">
+                <li key={index} className={`pb-4 lg:pb-14 w-1/2 ${customWidthDesk}`}>
                     <a className={`flex justify-center items-center ${center ? 'lg:justify-center' : 'lg:justify-start'}`} href={link.link}>
                         {link.name}
                         <svg className={`ml-2 hidden lg:block ${color ? `stroke-${color}` : ''}`} width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 25.5L26 1.5M26 1.5H4.4M26 1.5V23.1" stroke={color ? color : '#121212'} strokeWidth="3"/>
                         </svg>
-                        <svg className={`lg:hidden ml-2  ${color ? `stroke-${color}` : ''}`} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                        <svg className={`lg:hidden ml-2 ${color ? `stroke-${color}` : ''}`} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <path d="M0.552246 15.3946L14.3433 1.60352M14.3433 1.60352H1.93135M14.3433 1.60352V14.0155" stroke={color ? color : "#0D1517"} strokeWidth="1.3791"/>
                             <path d="M0.552246 15.3946L14.3433 1.60352M14.3433 1.60352H1.93135M14.3433 1.60352V14.0155" stroke="url(#pattern0)" strokeOpacity="0.4" strokeWidth="1.3791"/>
                             <defs>

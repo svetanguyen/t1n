@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HOMEPAGE, ABOUT, WORK, CONTACT } from '../constants/routes'
 
 export default function Drawer({ show, setShow }) {
+    const location = useLocation()
     useEffect(() => {
         if (show) {
             document.body.style.overflow = 'hidden'
@@ -15,6 +16,9 @@ export default function Drawer({ show, setShow }) {
             document.body.style.overflow = 'auto'
         }
     }, [show])
+    useEffect(() => {
+        setShow(false)
+    }, [location, setShow])
     return (
         <div className={`fixed z-10 top-0 h-screen right-0 overflow-scroll menu-drawer w-full sm:w-96 flex items-center bg-black${show ? '' : ' translate-x-full'}`}>
             <div className="px-5 py-8 flex justify-end absolute top-0 left-0 w-full">
