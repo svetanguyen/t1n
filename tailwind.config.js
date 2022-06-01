@@ -55,7 +55,8 @@ module.exports = {
         'main-bold': 'Surt-Bold',
         'montserrat': 'Montserrat',
         'atmospheric': 'a Atmospheric',
-        'poppins': 'Poppins, sans-serif'
+        'poppins': 'Poppins, sans-serif',
+        'gothic': 'Dela Gothic One'
       },
       spacing: {
         '23': '8.25rem',
