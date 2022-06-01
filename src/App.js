@@ -10,6 +10,7 @@ const Contact = lazy(() => import('./pages/contact'));
 const Work = lazy(() => import('./pages/work/index'));
 const CastToTv = lazy(() => import('./pages/cast-to-tv'))
 const Network = lazy(() => import('./pages/works/network/index'))
+const NotFound = lazy(() => import('./pages/not-found'))
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path={CONTACT} element={<Contact />} />
             <Route path={CASTTOTV} element={<CastToTv />} />
             <Route path={NETWORK} element={<Network />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
         <Footer />
