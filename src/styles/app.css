@@ -75,3 +75,7 @@
 .duration-7000 {
     -webkit-animation-duration: 7000ms;
 }
+
+body {
+    min-height: 100vh;
+}
