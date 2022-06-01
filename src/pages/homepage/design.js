@@ -17,13 +17,13 @@ export default function Design() {
                             item.grid === 'right' && 
                             <div className={`col-start-3 col-span-1 border-gray ${index === 0 || process[index - 1].grid === 'right' ? '' : ' border-t'}`}></div>
                         }
-                        <div className={`text-center py-5 col-span-3 text-white-100 opacity-70 ${item.grid === 'center' && index !== process.length - 1 && process[index + 1].grid === 'center' ? 'lg:border-b' : (item.grid === 'left' ? 'lg:border-b' : '')} lg:border-gray ${item.grid === 'left' ? 'lg:border-r' : (item.grid === 'right' ? 'lg:border-l lg:border-t' : '')}`}>
+                        <div className={`text-center py-9 lg:py-[65px] col-span-3 text-white-100 opacity-70 ${item.grid === 'center' && index !== process.length - 1 && process[index + 1].grid === 'center' ? 'lg:border-b' : (item.grid === 'left' ? 'lg:border-b' : '')} lg:border-gray ${item.grid === 'left' ? 'lg:border-r' : (item.grid === 'right' ? 'lg:border-l lg:border-t' : '')}`}>
                             <img
                                 src={item.image}
                                 alt={item.description} 
                                 className="mx-auto mb-4"
                             />
-                            <p className="text-21 lg:text-26 font-lightexp">{item.description}</p>
+                            <p className="text-sm lg:text-26 font-lightexp">{item.description}</p>
                         </div>
                         {
                             item.grid === 'left' && 

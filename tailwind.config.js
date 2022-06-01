@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         'yellow': '#FFEC6B',
+        'yellow-100': '#DDC522',
         'white-100': '#FEFEFE',
         'white-200': '#F5F5F5',
         'gray': '#656565',
@@ -42,6 +43,7 @@ module.exports = {
         'crossed': 'linear-gradient(to top left,rgba(0,0,0,0) 0%,rgba(0,0,0,0) calc(50% - 0.8px),#656565 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%),linear-gradient(to top right,rgba(0,0,0,0) 0%,rgba(0,0,0,0) calc(50% - 0.8px),#656565 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%);',
         'gradient': 'url("../../public/images/banner.png")',
         'gradient-top-50': 'linear-gradient(to top,#fff,#fff 50%, transparent 50%),url("../../public/images/banner.png")',
+        'gradient-top-50-gray': 'linear-gradient(to top,#ECECEC,#ECECEC 50%, transparent 50%),url("../../public/images/banner.png")',
         'gradient-top-60': 'linear-gradient(to top,#fff,#fff 60%, transparent 60%),url("../../public/images/banner.png")',
         'gradient-blue': 'linear-gradient(212.5deg, #54FFD6 13.99%, #40A3FF 74.54%);'
       },

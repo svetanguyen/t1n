@@ -1,4 +1,3 @@
-import { NETWORK } from '../constants/routes'
 
 export const works = [
     {
@@ -9,9 +8,10 @@ export const works = [
         'external': true
     },
     {
-        'title': 'X network',
-        'image': '/images/network.jpg',
-        'description': 'Test your internet speed and check network performance',
-        'link': NETWORK
+        'title': 'Sleep sounds',
+        'image': '/images/sleep.jpg',
+        'description': 'Relax and sleep with sleeping sounds, nature sounds',
+        'link': 'https://www.behance.net/gallery/143918153/Sleep-App',
+        'external': true
     }
 ]
