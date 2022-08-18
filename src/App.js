@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <Header  />
-        <Suspense fallback={<p>Loading..</p>}>
+        <Suspense className="min-h-screen" fallback={<p>Loading..</p>}>
           <Routes>
             <Route path={HOMEPAGE} element={<Homepage />} />
             <Route path={ABOUT} element={<About />} />
