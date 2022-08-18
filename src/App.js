@@ -17,7 +17,8 @@ function App() {
     <div className="App">
       <Router>
         <Header  />
-        <Suspense className="min-h-screen" fallback={<p>Loading..</p>}>
+        <div className="min-h-screen">
+        <Suspense fallback={<p>Loading..</p>}>
           <Routes>
             <Route path={HOMEPAGE} element={<Homepage />} />
             <Route path={ABOUT} element={<About />} />
@@ -28,6 +29,8 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
+        </div>
+        
         <Footer />
       </Router>
     </div>
